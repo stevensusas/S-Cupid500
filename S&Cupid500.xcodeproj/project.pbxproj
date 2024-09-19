@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94F6181E2C9CB33D00C84097 /* S_Cupid500App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6181D2C9CB33D00C84097 /* S_Cupid500App.swift */; };
+		94F618202C9CB33D00C84097 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6181F2C9CB33D00C84097 /* LoginView.swift */; };
+		94F618222C9CB33E00C84097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F618212C9CB33E00C84097 /* Assets.xcassets */; };
+		94F618252C9CB33E00C84097 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F618242C9CB33E00C84097 /* Preview Assets.xcassets */; };
+		94F6182F2C9CB33E00C84097 /* S_Cupid500Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6182E2C9CB33E00C84097 /* S_Cupid500Tests.swift */; };
+		94F618392C9CB33E00C84097 /* S_Cupid500UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F618382C9CB33E00C84097 /* S_Cupid500UITests.swift */; };
+		94F6183B2C9CB33E00C84097 /* S_Cupid500UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6183A2C9CB33E00C84097 /* S_Cupid500UITestsLaunchTests.swift */; };
+		94F618482C9CBD2000C84097 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F618472C9CBD2000C84097 /* Logo.png */; };
+		94F6184C2C9CC64A00C84097 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6184B2C9CC64A00C84097 /* ExploreView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94F6182B2C9CB33E00C84097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F618122C9CB33D00C84097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F618192C9CB33D00C84097;
+			remoteInfo = "S&Cupid500";
+		};
+		94F618352C9CB33E00C84097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F618122C9CB33D00C84097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F618192C9CB33D00C84097;
+			remoteInfo = "S&Cupid500";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94F6181A2C9CB33D00C84097 /* S&Cupid500.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "S&Cupid500.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F6181D2C9CB33D00C84097 /* S_Cupid500App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_Cupid500App.swift; sourceTree = "<group>"; };
+		94F6181F2C9CB33D00C84097 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		94F618212C9CB33E00C84097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94F618242C9CB33E00C84097 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94F6182A2C9CB33E00C84097 /* S&Cupid500Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "S&Cupid500Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F6182E2C9CB33E00C84097 /* S_Cupid500Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_Cupid500Tests.swift; sourceTree = "<group>"; };
+		94F618342C9CB33E00C84097 /* S&Cupid500UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "S&Cupid500UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F618382C9CB33E00C84097 /* S_Cupid500UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_Cupid500UITests.swift; sourceTree = "<group>"; };
+		94F6183A2C9CB33E00C84097 /* S_Cupid500UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_Cupid500UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94F618472C9CBD2000C84097 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		94F6184B2C9CC64A00C84097 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94F618172C9CB33D00C84097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F618272C9CB33E00C84097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F618312C9CB33E00C84097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94F618112C9CB33D00C84097 = {
+			isa = PBXGroup;
+			children = (
+				94F6181C2C9CB33D00C84097 /* S&Cupid500 */,
+				94F6182D2C9CB33E00C84097 /* S&Cupid500Tests */,
+				94F618372C9CB33E00C84097 /* S&Cupid500UITests */,
+				94F6181B2C9CB33D00C84097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94F6181B2C9CB33D00C84097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F6181A2C9CB33D00C84097 /* S&Cupid500.app */,
+				94F6182A2C9CB33E00C84097 /* S&Cupid500Tests.xctest */,
+				94F618342C9CB33E00C84097 /* S&Cupid500UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94F6181C2C9CB33D00C84097 /* S&Cupid500 */ = {
+			isa = PBXGroup;
+			children = (
+				94F6181D2C9CB33D00C84097 /* S_Cupid500App.swift */,
+				94F6184B2C9CC64A00C84097 /* ExploreView.swift */,
+				94F6181F2C9CB33D00C84097 /* LoginView.swift */,
+				94F618212C9CB33E00C84097 /* Assets.xcassets */,
+				94F618472C9CBD2000C84097 /* Logo.png */,
+				94F618232C9CB33E00C84097 /* Preview Content */,
+			);
+			path = "S&Cupid500";
+			sourceTree = "<group>";
+		};
+		94F618232C9CB33E00C84097 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94F618242C9CB33E00C84097 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94F6182D2C9CB33E00C84097 /* S&Cupid500Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94F6182E2C9CB33E00C84097 /* S_Cupid500Tests.swift */,
+			);
+			path = "S&Cupid500Tests";
+			sourceTree = "<group>";
+		};
+		94F618372C9CB33E00C84097 /* S&Cupid500UITests */ = {
+			isa = PBXGroup;
+			children = (
+				94F618382C9CB33E00C84097 /* S_Cupid500UITests.swift */,
+				94F6183A2C9CB33E00C84097 /* S_Cupid500UITestsLaunchTests.swift */,
+			);
+			path = "S&Cupid500UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94F618192C9CB33D00C84097 /* S&Cupid500 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F6183E2C9CB33E00C84097 /* Build configuration list for PBXNativeTarget "S&Cupid500" */;
+			buildPhases = (
+				94F618162C9CB33D00C84097 /* Sources */,
+				94F618172C9CB33D00C84097 /* Frameworks */,
+				94F618182C9CB33D00C84097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "S&Cupid500";
+			productName = "S&Cupid500";
+			productReference = 94F6181A2C9CB33D00C84097 /* S&Cupid500.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94F618292C9CB33E00C84097 /* S&Cupid500Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F618412C9CB33E00C84097 /* Build configuration list for PBXNativeTarget "S&Cupid500Tests" */;
+			buildPhases = (
+				94F618262C9CB33E00C84097 /* Sources */,
+				94F618272C9CB33E00C84097 /* Frameworks */,
+				94F618282C9CB33E00C84097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F6182C2C9CB33E00C84097 /* PBXTargetDependency */,
+			);
+			name = "S&Cupid500Tests";
+			productName = "S&Cupid500Tests";
+			productReference = 94F6182A2C9CB33E00C84097 /* S&Cupid500Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94F618332C9CB33E00C84097 /* S&Cupid500UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F618442C9CB33E00C84097 /* Build configuration list for PBXNativeTarget "S&Cupid500UITests" */;
+			buildPhases = (
+				94F618302C9CB33E00C84097 /* Sources */,
+				94F618312C9CB33E00C84097 /* Frameworks */,
+				94F618322C9CB33E00C84097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F618362C9CB33E00C84097 /* PBXTargetDependency */,
+			);
+			name = "S&Cupid500UITests";
+			productName = "S&Cupid500UITests";
+			productReference = 94F618342C9CB33E00C84097 /* S&Cupid500UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94F618122C9CB33D00C84097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					94F618192C9CB33D00C84097 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					94F618292C9CB33E00C84097 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 94F618192C9CB33D00C84097;
+					};
+					94F618332C9CB33E00C84097 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 94F618192C9CB33D00C84097;
+					};
+				};
+			};
+			buildConfigurationList = 94F618152C9CB33D00C84097 /* Build configuration list for PBXProject "S&Cupid500" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94F618112C9CB33D00C84097;
+			productRefGroup = 94F6181B2C9CB33D00C84097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F618192C9CB33D00C84097 /* S&Cupid500 */,
+				94F618292C9CB33E00C84097 /* S&Cupid500Tests */,
+				94F618332C9CB33E00C84097 /* S&Cupid500UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94F618182C9CB33D00C84097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F618252C9CB33E00C84097 /* Preview Assets.xcassets in Resources */,
+				94F618482C9CBD2000C84097 /* Logo.png in Resources */,
+				94F618222C9CB33E00C84097 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F618282C9CB33E00C84097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F618322C9CB33E00C84097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94F618162C9CB33D00C84097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F618202C9CB33D00C84097 /* LoginView.swift in Sources */,
+				94F6184C2C9CC64A00C84097 /* ExploreView.swift in Sources */,
+				94F6181E2C9CB33D00C84097 /* S_Cupid500App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F618262C9CB33E00C84097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F6182F2C9CB33E00C84097 /* S_Cupid500Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F618302C9CB33E00C84097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F6183B2C9CB33E00C84097 /* S_Cupid500UITestsLaunchTests.swift in Sources */,
+				94F618392C9CB33E00C84097 /* S_Cupid500UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94F6182C2C9CB33E00C84097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F618192C9CB33D00C84097 /* S&Cupid500 */;
+			targetProxy = 94F6182B2C9CB33E00C84097 /* PBXContainerItemProxy */;
+		};
+		94F618362C9CB33E00C84097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F618192C9CB33D00C84097 /* S&Cupid500 */;
+			targetProxy = 94F618352C9CB33E00C84097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94F6183C2C9CB33E00C84097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94F6183D2C9CB33E00C84097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94F6183F2C9CB33E00C84097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"S&Cupid500/Preview Content\"";
+				DEVELOPMENT_TEAM = 57T7AXR8V3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scupid500.S-Cupid500";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94F618402C9CB33E00C84097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"S&Cupid500/Preview Content\"";
+				DEVELOPMENT_TEAM = 57T7AXR8V3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scupid500.S-Cupid500";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94F618422C9CB33E00C84097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57T7AXR8V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scupid500.S-Cupid500Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S&Cupid500.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/S&Cupid500";
+			};
+			name = Debug;
+		};
+		94F618432C9CB33E00C84097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57T7AXR8V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scupid500.S-Cupid500Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S&Cupid500.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/S&Cupid500";
+			};
+			name = Release;
+		};
+		94F618452C9CB33E00C84097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57T7AXR8V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scupid500.S-Cupid500UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "S&Cupid500";
+			};
+			name = Debug;
+		};
+		94F618462C9CB33E00C84097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57T7AXR8V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scupid500.S-Cupid500UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "S&Cupid500";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94F618152C9CB33D00C84097 /* Build configuration list for PBXProject "S&Cupid500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F6183C2C9CB33E00C84097 /* Debug */,
+				94F6183D2C9CB33E00C84097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F6183E2C9CB33E00C84097 /* Build configuration list for PBXNativeTarget "S&Cupid500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F6183F2C9CB33E00C84097 /* Debug */,
+				94F618402C9CB33E00C84097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F618412C9CB33E00C84097 /* Build configuration list for PBXNativeTarget "S&Cupid500Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F618422C9CB33E00C84097 /* Debug */,
+				94F618432C9CB33E00C84097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F618442C9CB33E00C84097 /* Build configuration list for PBXNativeTarget "S&Cupid500UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F618452C9CB33E00C84097 /* Debug */,
+				94F618462C9CB33E00C84097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94F618122C9CB33D00C84097 /* Project object */;
+}
