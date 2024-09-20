@@ -19,10 +19,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct S_Cupid500App: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var authModel = AuthModel()
     
     var body: some Scene {
         WindowGroup {
             LoginView()
+                .environmentObject(authModel)
         }
     }
 }

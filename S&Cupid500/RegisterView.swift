@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RegisterView: View {
-    @ObservedObject var authModel = AuthModel()
+    @EnvironmentObject var authModel: AuthModel
     
     var body: some View {
         NavigationView{
