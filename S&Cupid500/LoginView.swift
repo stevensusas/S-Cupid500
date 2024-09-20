@@ -8,52 +8,68 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var username = ""
-    @State private var password = ""
+    @ObservedObject var authModel = AuthModel()
+    @State var navigate = false
     
     var body: some View {
-        VStack {
-            Spacer()
-            Image("Logo")
-                .resizable()
-                .frame(width: 200, height: 200)
-            TextField(text: $username, prompt: Text("Username").foregroundColor(.gray)) {
-                Text("Username")
-            }
+        NavigationView {
+            VStack {
+                Spacer()
+                Image("Logo")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                TextField(text: $authModel.email, prompt: Text("Username").foregroundColor(.gray)) {
+                    Text("Username")
+                }
                 .padding() // Adds padding inside the TextField
                 .background(Color.gray.opacity(0.5)) // Light gray background
                 .cornerRadius(8) // Rounded corners
                 .foregroundColor(Color.white) // Makes the text inside white
                 .padding(.horizontal, 16)
-            SecureField(text: $password, prompt: Text("Password").foregroundColor(.gray)) {
-                Text("Password")
-            }
+                SecureField(text: $authModel.password, prompt: Text("Password").foregroundColor(.gray)) {
+                    Text("Password")
+                }
                 .padding() // Adds padding inside the TextField
                 .background(Color.gray.opacity(0.5)) // Light gray background
                 .cornerRadius(8) // Rounded corners
                 .foregroundColor(Color.white) // Makes the text inside white
                 .padding(.horizontal, 16)
-            Spacer().frame(height: 25)
-            HStack {
-                Button(action: {
-                    print("Login")
-                }) {
-                    Text("Login")
-                        .fontWeight(.bold)
+                Spacer().frame(height: 25)
+                HStack {
+                    Button(action: {
+                        authModel.login()
+                        if authModel.isLoggedIn {
+                        navigate = true
+                        }
+                    }) {
+                        Text("Login")
+                            .fontWeight(.bold)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                    Button("Register") {
+                    }
+                }
+                if !authModel.errorMessage.isEmpty {
+                    Text(authModel.errorMessage)
+                        .foregroundColor(.red)
                         .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
                 }
-                Button("Register") {
-                }
+                Spacer()
+                NavigationLink(
+                                    destination: HomeView(),
+                                    isActive: $navigate,
+                                    label: {
+                                        EmptyView() // Hidden link triggered by state
+                                    }
+                                )
             }
-            Spacer()
+            .background(Color(UIColor(red: 26/255, green: 68/255, blue: 20/255, alpha: 1.0)))
         }
-        .background(Color(UIColor(red: 26/255, green: 68/255, blue: 20/255, alpha: 1.0)))
     }
 }
-
 #Preview {
     LoginView()
 }
