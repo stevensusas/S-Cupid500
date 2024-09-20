@@ -9,7 +9,6 @@ import SwiftUI
 
 struct LoginView: View {
     @ObservedObject var authModel = AuthModel()
-    @State var navigate = false
     
     var body: some View {
         NavigationView {
@@ -38,9 +37,6 @@ struct LoginView: View {
                 HStack {
                     Button(action: {
                         authModel.login()
-                        if authModel.isLoggedIn {
-                        navigate = true
-                        }
                     }) {
                         Text("Login")
                             .fontWeight(.bold)
@@ -49,7 +45,9 @@ struct LoginView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                     }
-                    Button("Register") {
+                    NavigationLink(destination: RegisterView()) {
+                        Text("Register")
+                            .foregroundColor(.blue)
                     }
                 }
                 if !authModel.errorMessage.isEmpty {
@@ -60,7 +58,7 @@ struct LoginView: View {
                 Spacer()
                 NavigationLink(
                                     destination: HomeView(),
-                                    isActive: $navigate,
+                                    isActive: $authModel.isLoggedIn,
                                     label: {
                                         EmptyView() // Hidden link triggered by state
                                     }

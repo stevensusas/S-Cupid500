@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9458D9A92C9D1512003AC893 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9458D9A82C9D1512003AC893 /* Database.swift */; };
 		947E6E202C9CE185006F49A6 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E6E1F2C9CE185006F49A6 /* AuthModel.swift */; };
 		947E6E222C9CE7A8006F49A6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E6E212C9CE7A8006F49A6 /* RegisterView.swift */; };
 		94C83BB02C9CDD4B00A2FF67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C83BAF2C9CDD4B00A2FF67 /* GoogleService-Info.plist */; };
@@ -62,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9458D9A82C9D1512003AC893 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		947E6E1F2C9CE185006F49A6 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		947E6E212C9CE7A8006F49A6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		94C83BAF2C9CDD4B00A2FF67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			children = (
 				94F6181D2C9CB33D00C84097 /* S_Cupid500App.swift */,
 				94F6184B2C9CC64A00C84097 /* ExploreView.swift */,
+				9458D9A82C9D1512003AC893 /* Database.swift */,
 				94C83BAF2C9CDD4B00A2FF67 /* GoogleService-Info.plist */,
 				94F6181F2C9CB33D00C84097 /* LoginView.swift */,
 				94F618212C9CB33E00C84097 /* Assets.xcassets */,
@@ -348,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9458D9A92C9D1512003AC893 /* Database.swift in Sources */,
 				94F618202C9CB33D00C84097 /* LoginView.swift in Sources */,
 				947E6E222C9CE7A8006F49A6 /* RegisterView.swift in Sources */,
 				947E6E202C9CE185006F49A6 /* AuthModel.swift in Sources */,

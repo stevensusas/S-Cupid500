@@ -15,6 +15,7 @@ class AuthModel: ObservableObject {
     @Published var errorMessage = ""
     @Published var isLoggedIn = false
     @Published var registered = false
+    @Published var useruid = ""
     
     func register() {
         Auth.auth().createUser(withEmail: email, password: password) {
@@ -48,6 +49,8 @@ func login() {
             self.errorMessage = error.localizedDescription
         } else {
             self.isLoggedIn = true
+            guard let user = authResult?.user else {return}
+            self.useruid = user.uid
         }
     }
     }

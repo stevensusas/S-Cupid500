@@ -105,6 +105,19 @@ struct ProfileView: View {
     
 }
 
+struct CoupleView: View {
+    let user: User
+    
+    var body: some View {
+        VStack{
+            Text("My Couple")
+                .font(.title)
+                .bold()
+            
+        }
+    }
+}
+
 struct HomeView: View {
     let couples = [
         Couple(name: "Alice & Bob", age: (25, 26), year: (.senior, .junior), howWeMet: "At a mutual friend's party", emoji: "💗"),
@@ -151,7 +164,12 @@ struct HomeView: View {
                         Image(systemName: "person.fill")
                         Text("Profile")
                     }
+        CoupleView(user: user)
+            .tabItem{
+                Image(systemName: "person.2")
+                Text("My Couple")
             }
+        }
     }
 }
 

@@ -9,7 +9,6 @@ import SwiftUI
 
 struct RegisterView: View {
     @ObservedObject var authModel = AuthModel()
-    @State var navigate = false
     
     var body: some View {
         NavigationView{
@@ -39,9 +38,6 @@ struct RegisterView: View {
                 Spacer().frame(height: 40)
                 Button(action: {
                     authModel.register()
-                    if authModel.registered {
-                        navigate = true
-                    }
                 }) {
                     Text("Register")
                         .padding()
@@ -56,11 +52,6 @@ struct RegisterView: View {
                         .padding()
                 }
                 Spacer()
-                NavigationLink(destination: LoginView(),
-                               isActive: $navigate,
-                               label: {
-                    EmptyView()
-                })
             }
             .background(Color(UIColor(red: 26/255, green: 68/255, blue: 20/255, alpha: 1.0)))
             
